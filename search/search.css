@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+    padding-top: 130px;
+}
+
+button {
+    margin: 50px 0px;
+    padding:6px 8px;
+    background-color: light gray;
+    border-radius: 20px ;
+}
+button:hover{
+    background: skyblue;
+}
+
+a {
+    color: black;
+    font-weight: 400;
+}
+
+h2 {
+    margin-right: 50px;
+}
+
+form {
+    text-align: center;
+    font-size: 90%;
+}

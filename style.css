@@ -1,0 +1,191 @@
+body {
+    background-color: black;
+    padding-top: 130px;
+}
+
+a {
+    color: black;
+    font-weight: 400;
+}
+
+h2 {
+    margin-right: 50px;
+}
+
+ul {
+    width: 900px;
+    margin: 50px auto;
+}
+
+.slider {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.slideritem {
+    height: 300px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.slideritem p {
+    position: absolute;
+    color: black;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.prev-arrow {
+    left: 0;
+    z-index: 10;
+}
+
+.next-arrow {
+    right: 0;
+}
+
+li img {
+    width: 100%;
+    height: 40vw;
+    object-fit: cover;
+}
+
+h5 {
+    margin-top: 10px;
+    color: white;
+}
+.container {
+    margin: 0px 0px;
+}
+.card {
+    width: 10rem;
+    height: 8rem;
+    margin: 20px;
+}
+
+.slide-items {
+    width: 100%;
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.slide-items li {
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.slide-items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-dots {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#modal, #searchButton {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    z-index: 10;
+}
+
+.modal-container,  .searchButton-container{
+    background-color: white;
+    margin: 10% auto;
+    width: 70%;
+    height: 80%;
+    box-shadow: 0 2px 7px black;
+    animation-name: popup;
+    animation-duration: 1s;
+}
+
+@keyframes popup {
+    from {
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    
+}
+
+.modal-header, .searchButton-header {
+    background-color: aqua;
+    padding: 3px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-header h1, .searchButton-header h1 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+.modalClose, #searchButtonClose{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.modal-body, .searchButton-body{
+    height: 80%;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+
+.modal-footer, .searchButton-footer {
+    background-color: white;
+    padding: 3px 15px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.modalOpen {
+    font-size: 20%;
+    font-weight: 800;
+}
+
+span {
+    font-size: 20px;
+}
+
+
+button{
+    padding:6px 8px;
+    background-color: light gray;
+    border-radius: 20px ;
+}
+
+button:hover{
+    background: skyblue;
+}
+
+
+
