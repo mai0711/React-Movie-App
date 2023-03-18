@@ -1,0 +1,110 @@
+.main {
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+
+.sliderItem {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.sliderItem img {
+    display: inline-block;
+    width: 70%;
+    height: 500px;
+    background-color: black;
+}
+
+.sliderItem p {
+    position: absolute;
+    color: black;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+}
+
+button{
+    padding:6px 8px;
+    background-color: light gray;
+    border-radius: 20px ;
+}
+
+button:hover{
+    background: skyblue;
+}
+
+#modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    z-index: 10;
+}
+
+.modal-container{
+    background-color: white;
+    margin: 10% auto;
+    width: 70%;
+    height: 80%;
+    box-shadow: 0 2px 7px black;
+    animation-name: popup;
+    animation-duration: 1s;
+}
+
+.modal-header {
+    background-color: aqua;
+    padding: 3px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-header h1{
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+.closeModal{
+    border: none;
+    background-color: aqua;
+}
+
+.modalClose{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.modalImg {
+    height: 500px;
+    width: 90%;
+}
+
+.modal-body{
+    height: 80%;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+
+.modal-footer {
+    background-color: white;
+    padding: 3px 15px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.modalOpen {
+    font-size: 20%;
+    font-weight: 800;
+}
+
+span {
+    font-size: 20px;
+}

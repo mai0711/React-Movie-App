@@ -14,7 +14,10 @@ form.addEventListener('submit', async function(e) {
     
     const resultData = data.results;
 
+    //give the data to makeImages
     makeImages(resultData);
+
+    //to delete the word I typed in in the input box
     // searchTermInput.value = '';
 });
 
