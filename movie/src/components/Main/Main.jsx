@@ -2,7 +2,7 @@
 import './Main.css'
 import image from "../img/img1.jpeg"
 import React, { useState } from 'react'
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 export default function Main() {
 

@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Movie from './components/Movie/Movie';
+import Search from './components/Search/Search';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Movie />
       <h5>Award wining film</h5>
       <Movie />
+      <Search />
     </div>
   );
 }

@@ -1,0 +1,43 @@
+.search {
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#searchBtn {
+    margin: 50px 0px;
+    padding:6px 8px;
+    background-color: white;
+    border-radius: 20px ;
+}
+#searchBtn:hover{
+    background: skyblue;
+}
+
+form {
+    text-align: center;
+    font-size: 90%;
+}
+
+.movie {
+    width: 20%;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+}
+.movieImg {
+    width: 70%;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.movieTitle {
+    width: 70%;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}

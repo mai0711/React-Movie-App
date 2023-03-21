@@ -1,19 +1,18 @@
 import React from 'react'
-import './Movie.css'
-import image from"../img/img.jpeg"
+import image from "../img/img.jpeg"
+import "../Movie/Movie.css"
 
 export default function Movie() {
-    return (
-    <div>
+  return (
+    <div className='item'>
         <ul className="slide-items">
-            <li><img src={image} alt=""/></li>
             <li><img src={image} alt="" /></li>
             <li><img src={image} alt="" /></li>
             <li><img src={image} alt="" /></li>
-            <li><img src={image} alt="" /></li>
+            <li><img src={image} alt=" " /></li>
             <li><img src={image} alt="" /></li>
             <li><img src={image} alt="" /></li>
         </ul>
     </div>
-    )
+  )
 }
